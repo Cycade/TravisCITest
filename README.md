@@ -1,5 +1,7 @@
 # 简易Java构建 with Travis-CI && Gradle
 
+[![Build Status](https://travis-ci.org/Cycade/TravisCITest.svg?branch=master)](https://travis-ci.org/Cycade/TravisCITest)
+
 在 IDEA 中使用 Gradle 构建工具，自动 build 后，目录结构如下：  
 
     project
