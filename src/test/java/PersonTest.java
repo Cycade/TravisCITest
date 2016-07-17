@@ -18,4 +18,16 @@ public class PersonTest {
         // then
         assertEquals(bill.getHeight(), 112);
     }
+
+    @Test
+    public void shouldNotGetHeight() throws Exception {
+        // given
+        Person bill = new Person();
+
+        // when
+        bill.setHeight(114);
+
+        // then
+        assertEquals(bill.getHeight(), 112);
+    }
 }
