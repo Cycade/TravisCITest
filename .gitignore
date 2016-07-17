@@ -1,0 +1,8 @@
+bulid/
+gradle/
+
+.gradle/
+.idea/
+
+*.gradle
+
